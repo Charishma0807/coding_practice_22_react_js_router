@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom'
 
 import './index.css'
 
-const Header = () => {
-  ;<nav className="header-container">
+const Header = () => (
+  <nav className="header-container">
     <div className="logo-and-title-container">
       <img
         alt="wave"
@@ -31,6 +31,6 @@ const Header = () => {
       </li>
     </ul>
   </nav>
-}
+)
 
 export default Header
